@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class KoekkenTILHave : MonoBehaviour
+public class KoekkenTILVaerelse : MonoBehaviour
 {
     void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(3);
     }
 }
