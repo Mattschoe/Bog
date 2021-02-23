@@ -3681,6 +3681,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &969947095
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3747,6 +3748,8 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
 =======
+=======
+>>>>>>> parent of e7252b8 (Merge branch 'main' of https://github.com/Mattschoe/BogV2 into main)
 --- !u!1 &1019555997
 GameObject:
   m_ObjectHideFlags: 0
@@ -3842,9 +3845,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1019555997}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
 >>>>>>> 59e7e9779d12079317465d4ee3728f5df706aade
 =======
 >>>>>>> parent of 9ab4a95 (Mindre update på scripts og design af Koekken og Have)
+=======
+>>>>>>> parent of e7252b8 (Merge branch 'main' of https://github.com/Mattschoe/BogV2 into main)
 --- !u!1 &1072946398
 GameObject:
   m_ObjectHideFlags: 0
@@ -7501,12 +7507,15 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 8565aa5abe7675f41b62cb1bf02db304, type: 3}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &1884778768 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 8565aa5abe7675f41b62cb1bf02db304, type: 3}
   m_PrefabInstance: {fileID: 1884778767}
   m_PrefabAsset: {fileID: 0}
 =======
+=======
+>>>>>>> parent of e7252b8 (Merge branch 'main' of https://github.com/Mattschoe/BogV2 into main)
 --- !u!1 &1886100679
 GameObject:
   m_ObjectHideFlags: 0
@@ -7602,9 +7611,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1886100679}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
 >>>>>>> 59e7e9779d12079317465d4ee3728f5df706aade
 =======
 >>>>>>> parent of 9ab4a95 (Mindre update på scripts og design af Koekken og Have)
+=======
+>>>>>>> parent of e7252b8 (Merge branch 'main' of https://github.com/Mattschoe/BogV2 into main)
 --- !u!1 &1918519815
 GameObject:
   m_ObjectHideFlags: 0
