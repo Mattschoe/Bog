@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class AnimationTrigger : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public Animation anim;
 
-    // Update is called once per frame
-    void Update()
+    void OnTriggerEnter()
     {
-        
+
     }
 }
