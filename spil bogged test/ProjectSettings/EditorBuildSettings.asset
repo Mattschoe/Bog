@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Assets/Scenes/Stue.unity
     guid: a2ffb08a54be4184a9937d4ae8074468
+  - enabled: 1
+    path: Assets/Assets/Scenes/rumSpil.unity
+    guid: b2dc3e9cc4fa6d648811de1bd7ae58f3
   m_configObjects: {}
