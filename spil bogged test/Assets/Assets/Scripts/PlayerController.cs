@@ -12,6 +12,6 @@ public class PlayerController : MonoBehaviour
     }
     void Update()
     {
-        transform.Translate(0f, 0f, Input.GetAxis("Horizontal") * Time.deltaTime*Hastighed);
+        transform.Translate(0f, 0f, -Input.GetAxis("Horizontal") * Time.deltaTime*Hastighed);
     }
 }
