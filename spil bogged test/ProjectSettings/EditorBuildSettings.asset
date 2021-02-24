@@ -6,21 +6,42 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Assets/Scenes/MainMenu.unity
+    guid: 3f8b76e2e057ec6498fd60277fc28a37
+  - enabled: 1
+    path: Assets/Assets/Scenes/VaerelseCutscene.unity
+    guid: da32917141642cd41be7d0485312066f
+  - enabled: 1
     path: Assets/Assets/Scenes/Vaerelse.unity
     guid: cecd629bc6058964189e24d52b2f691e
   - enabled: 1
     path: Assets/Assets/Scenes/Have.unity
     guid: f08e527dc84e5774d8be7f3c8b0178d3
   - enabled: 1
+    path: Assets/Assets/Scenes/HaveCutscene.unity
+    guid: d0ca2093c131b8f458764c3f57d18ff5
+  - enabled: 1
+    path: Assets/Assets/Scenes/I UFO2.0.unity
+    guid: 3ff6afe220cf9804289738ec39dbc9fd
+  - enabled: 1
     path: Assets/Assets/Scenes/Koekken.unity
     guid: fa3feb7fef2640c44bf8a21b9752f552
+  - enabled: 1
+    path: Assets/Assets/Scenes/KoekkenCutscene.unity
+    guid: 45e156bff936b9443b6847e9d85d62e2
+  - enabled: 1
+    path: Assets/Assets/Scenes/MadAlene.unity
+    guid: d97907ab63d8d214b8b5d823dd1ded5f
+  - enabled: 1
+    path: Assets/Assets/Scenes/MadSammen.unity
+    guid: b0b5e1e8c51bcab4e917608582548564
   - enabled: 1
     path: Assets/Assets/Scenes/Rummet.unity
     guid: 22f553ebcd0e1464d8927dd2a36ddf04
   - enabled: 1
-    path: Assets/Assets/Scenes/Stue.unity
-    guid: a2ffb08a54be4184a9937d4ae8074468
-  - enabled: 1
     path: Assets/Assets/Scenes/rumSpil.unity
     guid: b2dc3e9cc4fa6d648811de1bd7ae58f3
+  - enabled: 1
+    path: Assets/Assets/Scenes/Stue.unity
+    guid: a2ffb08a54be4184a9937d4ae8074468
   m_configObjects: {}
