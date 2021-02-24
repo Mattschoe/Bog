@@ -791,6 +791,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 788ea636d438dc545896d59829261dd5, type: 3}
+<<<<<<< HEAD
+<<<<<<< HEAD
+--- !u!4 &1260244455 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 788ea636d438dc545896d59829261dd5, type: 3}
+  m_PrefabInstance: {fileID: 1260244454}
+  m_PrefabAsset: {fileID: 0}
+=======
 --- !u!1 &1286820310
 GameObject:
   m_ObjectHideFlags: 0
@@ -1099,6 +1107,9 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1376595169}
   m_CullTransparentMesh: 1
+>>>>>>> 6ccb42c2570651f6b05face9efdca22b2783f372
+=======
+>>>>>>> parent of 3372bbe (Lavede shit i I UFo)
 --- !u!1001 &1397180891
 PrefabInstance:
   m_ObjectHideFlags: 0
