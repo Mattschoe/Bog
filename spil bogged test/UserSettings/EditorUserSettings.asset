@@ -9,15 +9,16 @@ EditorUserSettings:
       value: 224247031146467a1e1d0936036c6c1313191d39631b32252867083debf42d
       flags: 0
     RecentlyUsedScenePath-1:
-      value: 224247031146467a1e1d0936036c6c1313191d39630027262867083debf42d
+      value: 224247031146467a1e1d0936036c6c1313191d39633a333d1e39143facf53a31f6fe
       flags: 0
     RecentlyUsedScenePath-2:
-      value: 224247031146467a1e1d0936036c6c1313191d39630329352622183dacf53a31f6fe
+      value: 224247031146467a1e1d0936036c6c1313191d39631a333d202c097df7ee3d2cfb
       flags: 0
     RecentlyUsedScenePath-3:
       value: 224247031146467a1e1d0936036c6c1313191d39630329352622183dc1f5202be1e238eca92f31352d1b
       flags: 0
     RecentlyUsedScenePath-4:
+<<<<<<< HEAD
       value: 224247031146467a1e1d0936036c6c1313191d39631a333d202c097df7ee3d2cfb
       flags: 0
     RecentlyUsedScenePath-5:
@@ -28,9 +29,21 @@ EditorUserSettings:
       flags: 0
     RecentlyUsedScenePath-7:
       value: 224247031146467a1e1d0936036c6c1313191d39631e27353f2c1120e7c3212cf1e433e7e2742a323016f6
+=======
+      value: 224247031146467a1e1d0936036c6c1313191d39630027262867083debf42d
+      flags: 0
+    RecentlyUsedScenePath-5:
+      value: 224247031146467a1e1d0936036c6c1313191d39631e27353f2c1120e7c3212cf1e433e7e2742a323016f6
+      flags: 0
+    RecentlyUsedScenePath-6:
+      value: 224247031146467a1e1d0936036c6c1313191d39630166050b065326ece92021
+      flags: 0
+    RecentlyUsedScenePath-7:
+      value: 224247031146467a1e1d0936036c6c1313191d39630329352622183dc1f5202be1e238eca92f31352d1b
+>>>>>>> parent of 3372bbe (Lavede shit i I UFo)
       flags: 0
     RecentlyUsedScenePath-8:
-      value: 224247031146467a1e1d0936036c6c1313191d39630166050b065326ece92021
+      value: 224247031146467a1e1d0936036c6c1313191d39630329352622183dacf53a31f6fe
       flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650
