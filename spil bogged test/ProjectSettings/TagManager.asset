@@ -7,11 +7,9 @@ TagManager:
   - Tissemand
   - TissemandTILVaerelse
   - TissemandTILKoekken
-<<<<<<< HEAD
-  - Asteroid
-=======
   - Alien
->>>>>>> cdafa7e4744c0ff54ca1cfd3aa105e4bed21a826
+  - Asteroid
+  - VaerelseTILKoekken
   layers:
   - Default
   - TransparentFX

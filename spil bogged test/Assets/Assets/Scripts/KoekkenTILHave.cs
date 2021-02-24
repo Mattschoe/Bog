@@ -21,5 +21,10 @@ public class KoekkenTILHave : MonoBehaviour
         {
             SceneManager.LoadScene(2);
         }
+
+        if (other.tag == "VaerelseTILKoekken")
+        {
+            SceneManager.LoadScene(2);
+        }
     }
 }
