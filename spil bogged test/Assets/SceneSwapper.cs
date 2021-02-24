@@ -13,7 +13,7 @@ public class SceneSwapper : MonoBehaviour
 
     
     IEnumerator Transist() {
-        yield return new WaitForSecondsRealtime(5f);
+        yield return new WaitForSecondsRealtime(3f);
         SceneManager.LoadScene(5);
     }
 }

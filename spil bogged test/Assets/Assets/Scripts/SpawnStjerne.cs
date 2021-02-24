@@ -18,7 +18,7 @@ public class SpawnStjerne : MonoBehaviour
     }
     IEnumerator SpawnStjerner()
     {
-        yield return new WaitForSecondsRealtime(0.5f);
+        yield return new WaitForSecondsRealtime(0.2f);
         Instantiate(Stjerne,transform.position,transform.rotation); 
         StartCoroutine(SpawnStjerner());
     }
