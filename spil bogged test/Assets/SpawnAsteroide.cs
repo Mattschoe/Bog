@@ -18,7 +18,7 @@ public class SpawnAsteroide : MonoBehaviour
     }
     IEnumerator SpawnAsteroider()
     {
-        yield return new WaitForSecondsRealtime(2f);
+        yield return new WaitForSecondsRealtime(1f);
         Instantiate(Asteroide, new Vector3(transform.position.x,transform.position.y,12f), transform.rotation);
         StartCoroutine(SpawnAsteroider());
     }
