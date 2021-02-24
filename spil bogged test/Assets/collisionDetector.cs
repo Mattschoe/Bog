@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class collisionDetector : MonoBehaviour
 {
+    public AudioSource Boom;
     public Text Deth;
     private void OnCollisionEnter(Collision collisionInfo)
     {
@@ -14,6 +15,9 @@ public class collisionDetector : MonoBehaviour
             StartCoroutine(UShitMate());
             Time.timeScale = 0.5f;
             Deth.enabled = true;
+            if (Boom.isPlaying == false) {
+                Boom.Play();
+            }
         }
     }
     IEnumerator UShitMate() {
