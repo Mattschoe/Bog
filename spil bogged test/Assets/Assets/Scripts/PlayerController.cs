@@ -5,13 +5,24 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float Hastighed;
-
+    public Rigidbody Rb;
     void Start ()
     {
         Hastighed = 5f;
     }
-    void Update()
+    void FixedUpdate()
     {
-        transform.Translate(0f, 0f, -Input.GetAxis("Horizontal") * Time.deltaTime*Hastighed);
+        Rb.drag = Rb.velocity.magnitude;
+        if (Rb.drag <= 1) {
+            Rb.drag = 1;
+        }
+        if (Input.GetKey(KeyCode.LeftArrow))
+        {
+            Rb.AddRelativeForce(0, 0, Hastighed * 5);
+        }
+        if (Input.GetKey(KeyCode.RightArrow))
+        {
+            Rb.AddRelativeForce(0, 0, -Hastighed * 5);
+        }
     }
 }
