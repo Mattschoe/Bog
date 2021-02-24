@@ -6,12 +6,14 @@ using UnityEngine.UI;
 
 public class collisionDetector : MonoBehaviour
 {
+    public Text Deth;
     private void OnCollisionEnter(Collision collisionInfo)
     {
         if (collisionInfo.collider.tag == "Asteroid")
         {
             StartCoroutine(UShitMate());
-            Time.timeScale = 0.5f; 
+            Time.timeScale = 0.5f;
+            Deth.enabled = true;
         }
     }
     IEnumerator UShitMate() {
