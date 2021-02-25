@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Assets/Scenes/Vaerelse/Have.unity
     guid: f08e527dc84e5774d8be7f3c8b0178d3
   - enabled: 1
-    path: Assets/Assets/Scenes/HaveCutscene.unity
+    path: Assets/Assets/Scenes/BlueRocket/HaveCutscene.unity
     guid: d0ca2093c131b8f458764c3f57d18ff5
   - enabled: 1
     path: Assets/Assets/Scenes/I UFO2.0.unity
