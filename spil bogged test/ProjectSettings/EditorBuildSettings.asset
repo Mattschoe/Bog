@@ -48,10 +48,10 @@ EditorBuildSettings:
     path: Assets/Assets/Scenes/Stue.unity
     guid: a2ffb08a54be4184a9937d4ae8074468
   - enabled: 1
-    path: Assets/sove.unity
+    path: Assets/Assets/Scenes/sove.unity
     guid: 3827f0477155f23448f31e6eb733b6c7
   - enabled: 1
-    path: Assets/spise eller sove.unity
+    path: Assets/Assets/Scenes/spise eller sove.unity
     guid: 0c2df08be21aeae46a1c6c708c9e9756
   - enabled: 1
     path: Assets/Assets/Scenes/RedRocket/HaveCutsceneRED.unity
