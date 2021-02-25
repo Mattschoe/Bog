@@ -2148,7 +2148,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 462814473}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80b242a6284643d4f97c5da20b89f397, type: 3}
+  m_Script: {fileID: 11500000, guid: 130257f463451b649a87bf473e284cc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &462814475
@@ -4174,9 +4174,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 462814474}
+      - m_Target: {fileID: 11500000, guid: 130257f463451b649a87bf473e284cc2, type: 3}
         m_TargetAssemblyTypeName: swapscener, Assembly-CSharp
-        m_MethodName: Nej
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5941,6 +5941,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c081ce9cc1b01c41bf764ed128d2434, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tekst: {fileID: 0}
 --- !u!1001 &1546766705
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7428,6 +7429,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Hastighed: 0
+  Rb: {fileID: 0}
 --- !u!114 &1983055541
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7440,6 +7442,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c081ce9cc1b01c41bf764ed128d2434, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tekst: {fileID: 0}
 --- !u!65 &1983055542
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7719,9 +7722,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 462814474}
+      - m_Target: {fileID: 11500000, guid: 130257f463451b649a87bf473e284cc2, type: 3}
         m_TargetAssemblyTypeName: swapscener, Assembly-CSharp
-        m_MethodName: Ja
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
