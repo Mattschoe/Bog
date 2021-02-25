@@ -8,10 +8,10 @@ public class swapscener : MonoBehaviour
 
     public void Ja()
     {
-        SceneManager.LoadScene(9);
+        SceneManager.LoadScene(10);
     }
     public void Nej()
     {
-        SceneManager.LoadScene(8); 
+        SceneManager.LoadScene(9); 
     }
 }

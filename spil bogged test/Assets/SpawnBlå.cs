@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SpawnStjerne : MonoBehaviour
+public class SpawnBlå : MonoBehaviour
 {
-    public float points; 
+    public float points;
     public GameObject Stjerne;
     // Start is called before the first frame update
     void Start()
@@ -18,15 +18,16 @@ public class SpawnStjerne : MonoBehaviour
     void Update()
     {
         points += Time.deltaTime;
-        transform.position = new Vector3(Random.Range(-50,50),100,0);
-        if (points >= 20) {
-            SceneManager.LoadScene(17);
+        transform.position = new Vector3(Random.Range(-50, 50), 100, 0);
+        if (points >= 20)
+        {
+            SceneManager.LoadScene(18);
         }
     }
     IEnumerator SpawnStjerner()
     {
         yield return new WaitForSecondsRealtime(0.2f);
-        Instantiate(Stjerne,transform.position,transform.rotation); 
+        Instantiate(Stjerne, transform.position, transform.rotation);
         StartCoroutine(SpawnStjerner());
     }
 
