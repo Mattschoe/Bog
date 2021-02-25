@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Assets/Scenes/Vaerelse.unity
     guid: cecd629bc6058964189e24d52b2f691e
   - enabled: 1
-    path: Assets/Assets/Scenes/Have.unity
+    path: Assets/Assets/Scenes/Vaerelse/Have.unity
     guid: f08e527dc84e5774d8be7f3c8b0178d3
   - enabled: 1
     path: Assets/Assets/Scenes/HaveCutscene.unity
@@ -29,6 +29,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Assets/Scenes/KoekkenCutscene.unity
     guid: 45e156bff936b9443b6847e9d85d62e2
+  - enabled: 1
+    path: Assets/Assets/Scenes/KoekkenEfterCutscene.unity
+    guid: 45d2191bd586c1a4b97b4493f5389442
   - enabled: 1
     path: Assets/Assets/Scenes/MadAlene.unity
     guid: d97907ab63d8d214b8b5d823dd1ded5f
