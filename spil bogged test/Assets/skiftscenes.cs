@@ -11,7 +11,7 @@ public class skiftscenes : MonoBehaviour
         StartCoroutine(Skift());
     }
     IEnumerator Skift() {
-        yield return new WaitForSecondsRealtime(6);
-        SceneManager.LoadScene(3);
+        yield return new WaitForSecondsRealtime(10);
+        SceneManager.LoadScene(8);
     }
 }
