@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class hahahfunny : MonoBehaviour
 {
     public void startGame() {
-        SceneManager.LoadScene(14);
+        SceneManager.LoadScene(15);
     }
     public void QuitGame() {
         Application.Quit();
