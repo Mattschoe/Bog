@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Assets/Scenes/Vaerelse.unity
     guid: cecd629bc6058964189e24d52b2f691e
   - enabled: 1
+    path: Assets/Assets/Scenes/Have.unity
+    guid: bdcdcbc7a8291f741af6c7ca6c6a75c3
+  - enabled: 0
     path: Assets/Assets/Scenes/Vaerelse/Have.unity
     guid: f08e527dc84e5774d8be7f3c8b0178d3
   - enabled: 1
