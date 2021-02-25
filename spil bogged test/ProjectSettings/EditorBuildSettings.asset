@@ -62,4 +62,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Assets/Scenes/BlueRocket/I UFO2.0 Cutscene.unity
     guid: 93af9a50934ca8540854c270a33c8b1c
+  - enabled: 1
+    path: "Assets/Assets/Scenes/rumspil bl\xE5.unity"
+    guid: 4f93392064b8cfd49ab434f7054b9c27
   m_configObjects: {}
