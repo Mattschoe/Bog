@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour
     {
         Rb.drag = Rb.velocity.magnitude;
         if (Rb.drag <= 1) {
-            Rb.drag = 1;
+            Rb.drag = 10;
         }
         if (Input.GetKey(KeyCode.LeftArrow))
         {
