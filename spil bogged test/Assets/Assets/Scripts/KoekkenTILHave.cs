@@ -9,22 +9,22 @@ public class KoekkenTILHave : MonoBehaviour
     {
         if (other.tag == "Tissemand")
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(3);
         }
 
         if (other.tag == "TissemandTILVaerelse")
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(2);
         }
 
         if (other.tag == "TissemandTILKoekken")
         {
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(6);
         }
 
         if (other.tag == "VaerelseTILKoekken")
         {
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(6);
         }
     }
 }
