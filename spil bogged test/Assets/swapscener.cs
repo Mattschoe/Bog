@@ -25,4 +25,14 @@ public class swapscener : MonoBehaviour
     {
         SceneManager.LoadScene(4);
     }
+
+    //Main Menu
+    public void Start()
+    {
+        SceneManager.LoadScene(1);
+    }
+    public void Credits()
+    {
+        SceneManager.LoadScene(13);
+    }
 }
