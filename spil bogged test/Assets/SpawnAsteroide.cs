@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SpawnAsteroide : MonoBehaviour
 {
+    public GameObject SpaceShip;
     public GameObject Asteroide;
     // Start is called before the first frame update
     void Start()
@@ -14,7 +15,7 @@ public class SpawnAsteroide : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector3(Random.Range(-50, 50), 100, 0);
+        transform.position = SpaceShip.transform.position + new Vector3(Random.Range(-5, 5), 50, 0);
     }
     IEnumerator SpawnAsteroider()
     {

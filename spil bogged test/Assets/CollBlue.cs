@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class collisionDetector : MonoBehaviour
+public class CollBlue : MonoBehaviour
 {
     public AudioSource Boom;
     public Text Deth;
@@ -15,13 +15,15 @@ public class collisionDetector : MonoBehaviour
             StartCoroutine(UShitMate());
             Time.timeScale = 0.5f;
             Deth.enabled = true;
-            if (Boom.isPlaying == false) {
+            if (Boom.isPlaying == false)
+            {
                 Boom.Play();
             }
         }
     }
-    IEnumerator UShitMate() {
+    IEnumerator UShitMate()
+    {
         yield return new WaitForSecondsRealtime(2f);
-        SceneManager.LoadScene(16);
+        SceneManager.LoadScene(4);
     }
 }
