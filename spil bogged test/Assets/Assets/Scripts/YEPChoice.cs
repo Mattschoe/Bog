@@ -8,6 +8,6 @@ public class YEPChoice : MonoBehaviour
         SceneManager.LoadScene(1);
     }
     public void sov() {
-        SceneManager.LoadScene(13);
+        SceneManager.LoadScene(14);
     }
 }
