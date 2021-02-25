@@ -2415,9 +2415,10 @@ GameObject:
   - component: {fileID: 564721110}
   - component: {fileID: 564721109}
   - component: {fileID: 564721108}
+  - component: {fileID: 564721112}
   m_Layer: 0
-  m_Name: Cube
-  m_TagString: Untagged
+  m_Name: SceneSkifter
+  m_TagString: TissemandTILVaelgRumskib
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2498,6 +2499,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &564721112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 564721107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c081ce9cc1b01c41bf764ed128d2434, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tekst: {fileID: 0}
 --- !u!1001 &589386664
 PrefabInstance:
   m_ObjectHideFlags: 0

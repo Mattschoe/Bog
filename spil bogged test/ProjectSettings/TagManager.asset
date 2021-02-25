@@ -11,6 +11,7 @@ TagManager:
   - Asteroid
   - VaerelseTILKoekken
   - Get food
+  - TissemandTILVaelgRumskib
   layers:
   - Default
   - TransparentFX
