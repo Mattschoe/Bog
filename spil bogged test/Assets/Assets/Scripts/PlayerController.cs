@@ -4,6 +4,7 @@ using UnityEngine;
  
 public class PlayerController : MonoBehaviour
 {
+    public Animator animator;
     public float Hastighed;
     public Rigidbody Rb;
     void Start ()
@@ -23,6 +24,10 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKey(KeyCode.RightArrow))
         {
             Rb.AddRelativeForce(0, 0, -Hastighed * 5);
+        }
+
+        {
+            animator.SetFloat("Speed", Mathf.Abs(Rb.velocity.magnitude));
         }
     }
 }
