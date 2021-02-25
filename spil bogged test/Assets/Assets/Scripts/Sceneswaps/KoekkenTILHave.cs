@@ -28,7 +28,12 @@ public class KoekkenTILHave : MonoBehaviour
         {
             SceneManager.LoadScene(6);
         }
-        
+
+        if (other.tag == "TissemandTILVaelgRumskib")
+        {
+            SceneManager.LoadScene(20);
+        }
+
     }
     private void OnTriggerStay(Collider other)
     {
