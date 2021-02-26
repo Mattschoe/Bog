@@ -10,7 +10,7 @@ public class gregd : MonoBehaviour
         StartCoroutine(TilMm());
     }
     IEnumerator TilMm() {
-        yield return new WaitForSecondsRealtime(5);
+        yield return new WaitForSecondsRealtime(16);
         SceneManager.LoadScene(0);
     }
 }
