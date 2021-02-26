@@ -1,1 +1,2 @@
-# El no sabe PepeLaugh
+# Interaktiv børnebog
+Lavet af: Anders, David, Lau, Lukas og Matthias
