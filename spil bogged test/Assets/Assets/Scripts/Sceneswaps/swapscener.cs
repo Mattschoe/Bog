@@ -12,6 +12,6 @@ public class swapscener : MonoBehaviour
     }
     public void Nej()
     {
-        SceneManager.LoadScene(9); 
+        SceneManager.LoadScene(22); 
     }
 }

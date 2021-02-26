@@ -21,8 +21,8 @@ EditorBuildSettings:
     path: Assets/Assets/Scenes/BlueRocket/HaveCutscene.unity
     guid: d0ca2093c131b8f458764c3f57d18ff5
   - enabled: 1
-    path: Assets/Assets/Scenes/RumMap/I UFO2.0 Foer.unity
-    guid: f193c6da2aca96446922356caff762ea
+    path: Assets/Assets/Scenes/RumMap/I UFO Foer1.unity
+    guid: c3a492d81d20a8a4380688d33dfe009f
   - enabled: 1
     path: "Assets/Assets/Scenes/K\xF8kkenMap/Koekken.unity"
     guid: fa3feb7fef2640c44bf8a21b9752f552
@@ -71,4 +71,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Assets/Scenes/RumMap/I UFO2.0.unity
     guid: 3ff6afe220cf9804289738ec39dbc9fd
+  - enabled: 1
+    path: Assets/Assets/Scenes/RumMap/I UFO2.0 No cake.unity
+    guid: f193c6da2aca96446922356caff762ea
   m_configObjects: {}
